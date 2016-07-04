@@ -17,3 +17,9 @@ https://msdn.microsoft.com/en-us/library/ms143219.aspx
 
 ----tutorial you tube
 https://www.youtube.com/watch?v=bt5-crc7NoM 
+
+---------
+http://rusanu.com/2013/08/01/understanding-how-sql-server-executes-a-query/
+
+
+https://www.brentozar.com/archive/2013/02/how-does-sql-server-store-data/
