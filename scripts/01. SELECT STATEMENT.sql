@@ -78,3 +78,17 @@ SELECT   ProductNumber, Name, "Price Range" =
          ELSE 'Over $1000'  
       END  
 FROM Production.Product; 
+
+
+--------aggregate functions
+
+SELECT AVG(VacationHours)AS 'Average vacation hours',   
+    SUM(SickLeaveHours) AS 'Total sick leave hours'  
+FROM HumanResources.Employee  
+
+SELECT TerritoryID, AVG(Bonus)as 'Average bonus', SUM(SalesYTD) as 'YTD sales'  
+FROM Sales.SalesPerson  
+
+
+
+------TODO: MIN si Max
