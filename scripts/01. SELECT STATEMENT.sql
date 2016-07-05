@@ -16,12 +16,6 @@ SELECT
 FROM Production.Product
 
 
------using top clause for select
-
-SELECT 
-	TOP 10 Name, ProductNumber, ModifiedDate
-FROM 
-	Production.Product
 
 
 ----table alias
@@ -92,3 +86,10 @@ FROM Sales.SalesPerson
 
 
 ------TODO: MIN si Max
+
+
+------removing duplicates
+SELECT DISTINCT Color
+FROM Production.Product
+
+
