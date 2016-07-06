@@ -1,0 +1,18 @@
+Context
+Proprietarii unui mall doresc instalarea unui sistem de monitorizare video a traficului din parcarea subterana. Sistemul informatic utilizeaza Microsoft Sql Server 2014 si indeplineste urmatoarele functionalitati
+- identifica masinile dupa numarul de inmatriculare
+- identificarea consta in identificarea producatorului si a modelului de masina
+- inregistreaza si centralizeaza informatiile despre data de sosire in parcarea subterana a unei masini si data de plecare din parcarea subterana
+(primele 2 ore de utilizare a parcarii sunt gratuite)
+
+- permite extragerea de situatii statistice precum cele de mai jos
+	- 
+	- incasarile obtinute de la clientii mall-ului prin utilizarea parcarii pe o luna, zi, an 
+	- care este intervalul orar cu cei mai multi utilizatori ai parcarii (cand sunt cele mai multe masini)
+	- care este media de utilizare a parcarii pe parcursul unei zile (cate masini sunt in medie in fiecare ora de pe parcursul unei zile)
+	- care este media de utilizare a parcarii pe parcursul anului / zilei / saptamani
+	- care este cel mai fidel client (cine utilizeaza cel mai mult parcarea)
+	- care este este intervalul mediu petrecut de clienti in parcare  (cat stationeaza in parcare in medie un utilizator al parcarii)
+	- care este a fost cea mai aglomerata zi din an in ceea ce priveste parcarea
+	- care este cea mai plina zi din saptamana (L, M, M) si care interval orar
+
