@@ -1,3 +1,6 @@
+
+------
+----https://technet.microsoft.com/en-us/library/dd776381(v=sql.105).aspx
 DECLARE @person TABLE (ID INT PRIMARY KEY IDENTITY, Name NVARCHAR(max))
 DECLARE @personAddress TABLE (Id INT PRIMARY KEY IDENTITY, [Address] NVARCHAR(max), PersonId INT, RegistrationDate DATETIME GETDATE())
 
@@ -30,3 +33,13 @@ SELECT
 	p.ID,
 	p.Name 
 FROM @person p
+
+
+
+
+-----adventure works
+INSERT INTO Production.UnitMeasure
+VALUES (N'FT', N'Feet', '20080414');
+
+
+-----insert into a table with identity
